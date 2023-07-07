@@ -1,0 +1,2044 @@
+{
+  error: error: column "hashed_toke" of relation "admin" does not exist
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:160:3) {
+    length: 131,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '18',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'analyze.c',
+    line: '2471',
+    routine: 'transformUpdateTargetList'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: column "hashed_toke" of relation "admin" does not exist\n' +
+    'error: column "hashed_toke" of relation "admin" does not exist\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  stack: 'error: column "hashed_toke" of relation "admin" does not exist\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:10:20 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 4624,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 67706880,
+      heapTotal: 33472512,
+      heapUsed: 21830280,
+      external: 1166424,
+      arrayBuffers: 315441
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 594672.609 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 160,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:10:20.907Z'
+}
+{
+  error: error: column "hashed_toke" of relation "admin" does not exist
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:161:3) {
+    length: 131,
+    severity: 'ERROR',
+    code: '42703',
+    detail: undefined,
+    hint: undefined,
+    position: '18',
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'analyze.c',
+    line: '2471',
+    routine: 'transformUpdateTargetList'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: column "hashed_toke" of relation "admin" does not exist\n' +
+    'error: column "hashed_toke" of relation "admin" does not exist\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:161:3)',
+  stack: 'error: column "hashed_toke" of relation "admin" does not exist\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:161:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:11:59 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 10264,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 67977216,
+      heapTotal: 33210368,
+      heapUsed: 22004432,
+      external: 1166430,
+      arrayBuffers: 315447
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 594771.421 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 161,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:11:59.724Z'
+}
+{
+  error: ReferenceError: jwt_decode is not defined
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:144:17)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: jwt_decode is not defined\n' +
+    'ReferenceError: jwt_decode is not defined\n' +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:144:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'ReferenceError: jwt_decode is not defined\n' +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:144:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:18:33 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 5824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 65720320,
+      heapTotal: 33472512,
+      heapUsed: 21164560,
+      external: 1159056,
+      arrayBuffers: 313740
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 595165.484 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:18:33.790Z'
+}
+{
+  error: ReferenceError: userDataFromCookie is not defined
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:146:80)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: userDataFromCookie is not defined\n' +
+    'ReferenceError: userDataFromCookie is not defined\n' +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:146:80)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'ReferenceError: userDataFromCookie is not defined\n' +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:146:80)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:20:01 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 20176,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66748416,
+      heapTotal: 33472512,
+      heapUsed: 21723352,
+      external: 1158963,
+      arrayBuffers: 313647
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 595252.828 },
+  trace: [
+    {
+      column: 80,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 146,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:20:01.133Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'split')
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:43)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot read properties of undefined (reading 'split')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'split')\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:43)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'split')\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:43)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:30:42 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 12992,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66994176,
+      heapTotal: 33472512,
+      heapUsed: 21836344,
+      external: 1208801,
+      arrayBuffers: 363485
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 595894.218 },
+  trace: [
+    {
+      column: 43,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:30:42.525Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'split')
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:43)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot read properties of undefined (reading 'split')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'split')\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:43)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'split')\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:43)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:31:25 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 20540,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 64978944,
+      heapTotal: 33472512,
+      heapUsed: 20667288,
+      external: 1133755,
+      arrayBuffers: 288439
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 595937.406 },
+  trace: [
+    {
+      column: 43,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:31:25.716Z'
+}
+{
+  error: TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:10)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:47:50 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 3580,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 65683456,
+      heapTotal: 33472512,
+      heapUsed: 20984112,
+      external: 1130156,
+      arrayBuffers: 284840
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 596922.046 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:47:50.344Z'
+}
+{
+  error: TypeError: Cannot destructure property 'refreshToken' of 'req.cookie' as it is undefined.
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:10)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot destructure property 'refreshToken' of 'req.cookie' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'refreshToken' of 'req.cookie' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot destructure property 'refreshToken' of 'req.cookie' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:49:28 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 25488,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 68444160,
+      heapTotal: 34258944,
+      heapUsed: 17352544,
+      external: 1206143,
+      arrayBuffers: 75561
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 597019.984 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:49:28.294Z'
+}
+{
+  error: TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:10)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 10:49:47 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 13788,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66588672,
+      heapTotal: 33210368,
+      heapUsed: 21334448,
+      external: 1158963,
+      arrayBuffers: 313647
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 597038.812 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T05:49:47.119Z'
+}
+{
+  error: TypeError: Cannot destructure property 'refreshToken' of 'req.headers.cookie' as it is undefined.
+      at refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:138:11)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\express\lib\router\index.js:47:12),
+  level: '\x1B[31merror\x1B[39m',
+  message: "unhandledRejection: Cannot destructure property 'refreshToken' of 'req.headers.cookie' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'refreshToken' of 'req.headers.cookie' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:11)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: "TypeError: Cannot destructure property 'refreshToken' of 'req.headers.cookie' as it is undefined.\n" +
+    '    at refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:138:11)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:08:18 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 24792,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 64925696,
+      heapTotal: 33734656,
+      heapUsed: 20202272,
+      external: 1120284,
+      arrayBuffers: 274968
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598150.468 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'refreshingToken',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:08:18.769Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:160:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:13:08 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 23112,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54935552,
+      heapTotal: 19316736,
+      heapUsed: 16879736,
+      external: 891961,
+      arrayBuffers: 43110
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598440 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 160,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:13:08.302Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:160:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:160:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:13:19 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 18136,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66945024,
+      heapTotal: 33472512,
+      heapUsed: 21241640,
+      external: 1115507,
+      arrayBuffers: 264524
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598451.39 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 160,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:13:19.694Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:161:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:161:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:161:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:15:08 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 12204,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66961408,
+      heapTotal: 33472512,
+      heapUsed: 21297112,
+      external: 1123693,
+      arrayBuffers: 272710
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598559.89 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 161,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:15:08.188Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:162:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:162:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:162:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:15:37 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 8496,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66580480,
+      heapTotal: 33996800,
+      heapUsed: 20430088,
+      external: 1117436,
+      arrayBuffers: 266453
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598588.781 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 162,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:15:37.083Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:162:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:162:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:162:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:16:13 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 17320,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66428928,
+      heapTotal: 33472512,
+      heapUsed: 21124960,
+      external: 1142523,
+      arrayBuffers: 291540
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598625.562 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 162,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:16:13.863Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:163:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:17:23 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 20288,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 68124672,
+      heapTotal: 33210368,
+      heapUsed: 21957104,
+      external: 1166438,
+      arrayBuffers: 315455
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 598694.875 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 163,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:17:23.179Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:165:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:165:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:165:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:23:26 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 25388,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 65830912,
+      heapTotal: 33472512,
+      heapUsed: 20347624,
+      external: 1097308,
+      arrayBuffers: 246325
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599058.046 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 165,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:23:26.357Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:163:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:29:06 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 11304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54886400,
+      heapTotal: 19578880,
+      heapUsed: 17081528,
+      external: 901246,
+      arrayBuffers: 52395
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599398.609 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 163,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:29:06.908Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:164:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:164:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:164:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:30:24 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 1680,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 67706880,
+      heapTotal: 33472512,
+      heapUsed: 21868048,
+      external: 1172347,
+      arrayBuffers: 321364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599475.859 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 164,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:30:24.157Z'
+}
+{
+  error: error: invalid input syntax for type integer: "{}"
+      at C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\node_modules\pg-pool\index.js:45:11
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async refreshingToken (C:\Users\victus by hp\OneDrive\Desktop\My codes\NodeJS\Second ten\NodeJS_16\GoExpress(third month exam)\controllers\admin.controller.js:163:3) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = '...'",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '235',
+    routine: 'pg_strtoint32'
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: invalid input syntax for type integer: "{}"\n' +
+    'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  stack: 'error: invalid input syntax for type integer: "{}"\n' +
+    '    at C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async refreshingToken (C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js:163:3)',
+  exception: true,
+  date: 'Fri Jul 07 2023 11:31:14 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 21612,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\app.js'
+    ],
+    memoryUsage: {
+      rss: 67272704,
+      heapTotal: 33472512,
+      heapUsed: 21586960,
+      external: 1179545,
+      arrayBuffers: 328562
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599526.359 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\node_modules\\pg-pool\\index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\victus by hp\\OneDrive\\Desktop\\My codes\\NodeJS\\Second ten\\NodeJS_16\\GoExpress(third month exam)\\controllers\\admin.controller.js',
+      function: 'async refreshingToken',
+      line: 163,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-07T06:31:14.669Z'
+}

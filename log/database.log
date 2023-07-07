@@ -1,0 +1,42 @@
+2023-07-07T04:25:20.175Z [undefined] [32minfo[39m: [object Object]
+2023-07-07T04:29:35.514Z [undefined] [32minfo[39m: [object Object]
+undefined
+2023-07-07T04:36:10.122Z [undefined] [32minfo[39m: [object Object]
+2023-07-07T04:40:42.860Z [object Object]
+2023-07-07T04:42:53.741Z [object Object] fejfrkj
+2023-07-07T04:44:32.430Z [object Object]
+2023-07-07T04:45:08.545Z Itachi
+{
+  message: {
+    id: 14,
+    full_name: null,
+    username: 'Itachi',
+    hashed_password: '$2b$10$tc9Gd5Mzl29dSCw60HxHOOuHsiSYA9FqUhqPVugEt5h3P.nzYbP4O',
+    phone_number: null,
+    email: 'uchiha@gmail.com',
+    tg_link: null,
+    hashed_token: null,
+    is_creator: null,
+    is_active: null,
+    description: null
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2023-07-07T04:45:56.786Z'
+}
+{
+  message: {
+    id: 15,
+    full_name: null,
+    username: 'Itachi',
+    hashed_password: '$2b$10$gTk8Myj5CHrZG0Sqwd08gOyAFRItv6WETXGqYFWLwzLlht.AN4hVq',
+    phone_number: null,
+    email: 'uchiha@gmail.com',
+    tg_link: null,
+    hashed_token: null,
+    is_creator: null,
+    is_active: null,
+    description: null
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  timestamp: '2023-07-07T04:47:20.917Z'
+}
